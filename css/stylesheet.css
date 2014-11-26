@@ -17,6 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -53,11 +54,46 @@ table {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #838994; 
+    -webkit-font-smoothing: antialiased;
+    margin-top: 30px;
+    
+    
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+
 .logo {
-    margin-left: 100px;
     margin-top: 15px;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
     
     
