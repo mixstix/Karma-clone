@@ -154,7 +154,7 @@ a {
     
     margin: 0 auto; 
     color: #000;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .cases .content h2 {
@@ -167,9 +167,10 @@ a {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    box-sizing: border-box;
     margin-top: 50px;
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
 
 }
 
@@ -182,6 +183,64 @@ a {
     font-weight: 400;
     padding-top: 30px;
 }
+
+i.fa {
+  -webkit-animation: show 1s 1;
+  /* any other properties to override from FontAwesome's default .fa rule */
+}
+@-webkit-keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.social {
+    background-color: #fff;
+    padding-bottom: 150px;
+    text-align: center;
     
+}
+
+.social hr {
+    border-top: 1px solid #eaebec;
+    margin-bottom: 20px;
+}
+
+.social .icons {
+    margin: 0 auto;
+    margin: 20px 0;
+}
+
+.social .icons li {
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #eaebec;
+    text-align: center; 
+    padding-top: 10px;
+    margin: 0 5px;
+}
+
+.social .content {
+    width: 704px;
+    margin: 0 auto;   
+}
     
+.social .fa-twitter {
+    color: #55acee;
+}
+
+.social .fa-facebook {
+    color: #4c66a4;
+}
+
+.social .fa-instagram {
+    color: #3f729b;
+}
+    
+.social .copy {
+    color: #838994;
+    font-size: 15px;
+    font-weight: 300;
+}
     
