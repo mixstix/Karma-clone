@@ -26,6 +26,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 ol, ul {
 	list-style: none;
@@ -59,10 +61,8 @@ table {
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif; 
     font-size: 16px; 
     color: #838994; 
-    -webkit-font-smoothing: antialiased;
     margin-top: 30px;
     
     
@@ -107,7 +107,7 @@ a {
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    
     padding-top: 200px;
     
 }
@@ -117,14 +117,12 @@ a {
     font-size: 50px;
     font-weight: 300;
     display: block;
-    -webkit-font-smoothing: antialiased;
     
 }
 
 .introduction h3 {
     font-size: 27px;
     font-weight: 300;
-    -webkit-font-smoothing: antialiased;
 }
     
 .introduction .content .big-button {
@@ -142,3 +140,45 @@ a {
     background-color: #d9400e;
     cursor: pointer;
 }
+
+.cases {
+    width: 704px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cases .content {
+    
+    margin: 0 auto; 
+    color: #000;
+    padding-top: 100px;
+}
+
+.cases .content h2 {
+    font-size: 45px;
+    font-weight: 300;
+    color: #1d1e21;
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+.cases .devices img {
+    height: 127px;
+}
+
+.cases .devices h3 {
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+    
+    
+    
