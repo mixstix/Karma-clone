@@ -184,15 +184,6 @@ a {
     padding-top: 30px;
 }
 
-i.fa {
-  -webkit-animation: show 1s 1;
-  /* any other properties to override from FontAwesome's default .fa rule */
-}
-@-webkit-keyframes show {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 .social {
     background-color: #fff;
     padding-bottom: 150px;
@@ -217,7 +208,7 @@ i.fa {
     width: 40px;
     border: 1px solid #eaebec;
     text-align: center; 
-    padding-top: 10px;
+    padding-top: 12px;
     margin: 0 5px;
 }
 
